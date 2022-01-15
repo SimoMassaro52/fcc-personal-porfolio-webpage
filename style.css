@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*NAV MENU*/
+
+nav{
+    background-color: #BE3144;
+    height: 80px;
+    font-size: 26px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.7);
+}
+
+ul li{
+    list-style: none;
+    height: 100%;
+}
+
+ul li:hover{
+    background-color: #45567d;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white !important;
+
+}
+
+
+
