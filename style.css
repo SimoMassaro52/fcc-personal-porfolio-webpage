@@ -6,8 +6,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
-
 
 /*NAV MENU*/
 
@@ -37,5 +37,129 @@ a:hover{
 
 }
 
+/*MAIN SECTION*/
 
+/*JUMBO*/
 
+#welcome-section{
+    height: 100vh;
+    background-color: #292A2C;
+}
+
+#welcome-section h1{
+    color: white;
+    font-size: 60px;
+}
+
+#welcome-section i{
+    color: #BE3144;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+/*WORKS SECTION*/
+
+#projects{
+    background-color: #45567D;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+#projects h2{
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 40px;
+}
+
+#projects img{
+    width: 100%;
+    height: 377px;
+    object-fit: cover;
+    box-shadow: 1px 0 3px black;
+}
+
+#title{
+    background-color: #303841;
+    box-shadow: 1px 0 3px black;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 100%;
+}
+
+#title span, #showall span, i{
+    font-size: 22px;    
+}
+
+/*PROJECTS HOVER EFFECT*/
+
+.code{
+    color: #303841;
+    transition: 0.3s ease-out;
+}
+
+.project-tile:hover .code{
+    color: #D96F32;
+}
+
+/*SHOW ALL BUTTON*/
+
+#showall{
+    background-color: #303841;
+    border-radius: 3px;
+    transition: 0.4s ease-out;
+}
+
+#showall:hover {
+    background-color: #BE3144;
+}
+
+#showall i{
+    transition: 0.4s ease-out;
+}
+
+#showall:hover i{
+    transform: translate(5px, 0);
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #303841;
+    color: white;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+footer h1{
+    font-size: 65px;
+}
+
+footer i{
+    font-weight: 100;
+}
+
+#social{
+
+}
+
+#social span, #social i{
+    font-size: 25px;
+    text-shadow: 2px 0 0 rgba(0, 0, 0, 0.7);
+}
+
+#social a{
+    transition: 0.3s ease-out;
+}
+
+#social a:hover{  
+    transform: translate(0, 5px);
+}
+
+#credits{
+    width: 100%;
+    border-top: 3px solid #BE3144;
+    font-size: 20px;
+}
